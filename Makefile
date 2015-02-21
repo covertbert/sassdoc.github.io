@@ -1,4 +1,7 @@
-$(MAKECMDGOALS): force
-	npm run jake $@
+all:
+	@node_modules/.bin/jake
 
-force:
+$(MAKECMDGOALS):
+	@node_modules/.bin/jake $@
+
+.PHONY: $(MAKECMDGOALS)
