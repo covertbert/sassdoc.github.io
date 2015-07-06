@@ -11,10 +11,10 @@ title: "Gulp integration"
 
 ## Introduction
 
-Starting from version `2.0` and higher SassDoc is able to integrate directly in
-your [Gulp][gulpjs] pipelines without any plugin. In such the [gulp-sassdoc] plugin has been deprecated.
+Starting from version `2.0` and higher SassDoc is able to integrate directly into
+your [Gulp][gulpjs] pipelines without any plugin. As such, the [gulp-sassdoc] plugin has been deprecated.
 
-If you haven't used [Gulp][gulpjs] before, be sure to check out the [Getting started] guide,
+If you haven't used [Gulp][gulpjs] before be sure to check out the [Getting started] guide,
 as it explains how to create a Gulpfile as well as install and use Gulp plugins.
 
 ## Examples
@@ -121,7 +121,7 @@ gulp.task('styles', function () {
 
 SassDoc Stream API is not tight to Gulp, its only requirement is
 expecting [Vinyl] files passed trough. The [vinyl-source-stream] module
-might comes in handy.
+might come in handy.
 
 {% highlight sh %}
 npm install --save-dev vinyl-source-stream sassdoc
